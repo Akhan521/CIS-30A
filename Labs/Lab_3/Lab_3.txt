@@ -1,0 +1,48 @@
+Q1. Please show your input and output for following questions
+a) Create a list call planets with ['Earth', 'Moon', 'Venus', 'Mars', 'Mercury']
+b) Print the planet at location 4
+c) Print the planet at location 2 to 4
+d) Add Jupiter to the end of the list and print the list
+e) Sort the planets in alphabetical order and print the list
+f) Determine if Sun is in the list
+g) Sort the planets in the reverse order and print the list
+h) Determine the length of the list
+i) Add Jupiter to the beginning of the list without replacing existing item and print the list
+j) Remove the last planet in the list using pop() and print the list
+k) Remove 1st location item planets[0] using del 
+l) Remove Mars using remove()
+
+Q2. Please show your input and output for following questions
+a) import numpy as np
+b) Create an array call array1 with [11,22,33,44]
+c) Create another array call array2 with adding 777 in the beginning of the list in array1
+d) Create another array call array3 with adding 555 in the beginning of the list in array1 
+   and 999 at the end of the list
+
+Q3. Declare checking_balance = 1000 and saving_balance = 1500
+    If checking balance is less than 2000, transfer 500 from saving_balance then print 
+    both checking and saving balance
+
+Q4. Ask user for his or her age. Write a code if age<21, print illegal drinking age, 
+   if age >65 print Eligible for Medicare else print Keep Working
+
+Q5. Write Python program that asking users to enter two numbers and evaluate these two numbers to determine
+    if two numbers are same or one is larger than the other. USe if statements and do not use functions.
+
+Q6. Write Python program that asking users to enter 1 or 2. If user input 1, print Hello World and if user input 2 then print
+    Python Rocks and if user do not enter anything or other numbers or characters that are not equal to 1 or 2, 
+    print You did not enter a valid number.
+
+Q7. A perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. 
+    The list of perfect number is: 6, 28, 496, 8128, 33550336
+    Write a python code to determine if user entered a perfect number using If Then conditional statement. Do not use loop.
+
+Q8. Write Python program that user entered input is even or odd integer. USe If Then statement. Do not use Loops.
+
+Q9. Create a dictionary call scores for following.
+            "Rick Sanchez": 70,
+             "Morty Smith": 35,
+             "Summer Smith": 82,
+             "Jerry Smith": 23,
+             "Beth Smith": 98
+     Write a Python program that determines which student passed the class. Passing score is greater than or equal to 65.

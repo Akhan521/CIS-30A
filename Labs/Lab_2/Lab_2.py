@@ -18,13 +18,17 @@ print(cars[:3])
 #   cars[-1] is accessing the last carmaker in our list and printing it.
 #f) Adding a car to our list.
 cars.append('Tesla')
+print(cars) #After adding Tesla.
 #g) Inserting a car at a specific index.
 cars.insert(3,'Porsche')
+print(cars) #After adding Porsche.
 #h) Removing an item from our list.
-del cars[9]       #Deleting Nissan from our list.
+del cars[9] #Deleting Nissan from our list.
+print(cars) #After removing Nissan.
 # cars.remove('Nissan') would also remove Nissan.
 #i) Sorting our list.
 cars.sort()
+print(cars) #After sorting our list.
 #j) Repeating our list 3 times.
 print(cars * 3)
 #k) Printing the length.
@@ -33,8 +37,10 @@ print(len(cars))
 sorted_cars=sorted(cars)  #Makes the data appear in sorted order, but it
                           #doesn't actually sort the original data.
 cars.sort()               #Sorts the original data (Permanently).
+print(cars)
 #m) Reversing our list.
 cars.reverse()
+print(cars)
 #n) Creating a tuple to hold perfect numbers.
 perfectNumbers=(6,28,496,8128,33550336)
 #o) Trying to add 2 to our tuple.
@@ -56,6 +62,7 @@ print(len(countries))
 print(countries[:5])
 #d) Sorting the countries.
 countries.sort()
+print(countries)
 #e) Creating a set and naming it country_set.
 country_set=set(countries)
 #f) Adding a country.
@@ -67,7 +74,9 @@ print('Argentina' in country_set)
 #h) Printing the updated set.
 print(country_set)
 #i) Using pop(). The first country in our set is removed.
+print(country_set) #Before using pop().
 country_set.pop()
+print(country_set) #After using pop().
 #-------------------------------------------------------------------------------
 #Q3: Creating a dictionary.
 totalMedalOlympic2016={'USA':121,'China':70,'GBR':67,'Russia':57,
@@ -100,15 +109,20 @@ import numpy as np  #Importing the numpy package.
 array = np.array([6,28,496,8128]) #Creating an array.
 #a) Dividing the array by 3 (Dividing each element by 3).
 division = array / 3
+print(division)
 #b) Adding 7 to the array (Adding 7 to each element).
 addition = array + 7
+print(addition)
 #c) Multiplying the array by 13.
 multiplication = array * 13
+print(multiplication)
 #d) Adding 144 to the end of our array.
 new_Array = np.append(array,144)
+print(new_Array)
 #e) Removing 8128 from our array.
 #   It is located at index 3.
 new_Array = np.delete(array,3)
+print(new_Array)
 #f) Creating a list and attempting to divide by 3.
 listPerfectNums = [6,28,496,8128]
 # division = listPerfectNums / 3 -> We get an error when we execute
